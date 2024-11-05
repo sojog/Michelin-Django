@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+<h2> JavaScript Style Form </h2>
+<form action="{% url 'board_url'  %}"  method="post">
+     {% csrf_token %}
+   
+    <input type="number" name="size" id="" min=4 max=12>
+    <input type="submit" value="Create">
+</form>
+
+<h2> Django Style Form </h2>
+
+<form action="{% url 'board_url'  %}"  method="post">
+     {% csrf_token %}
+
+    {{form}}
+
+     <input type="submit" value="Create">
+
+</form>
+</body>
+</html>

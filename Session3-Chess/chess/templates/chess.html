@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height:100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        main{
+            height: min(80vh, 80vw);
+            width: min(80vh, 80vw);
+            background-color:bisque;
+            display:grid;
+            grid-template-columns: repeat({{N}}, 1fr);
+        }
+        .square{
+            border-color: black;
+            border-width: 2px;
+            border-style: solid;
+        }
+        .black{
+            background-color:black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1> Chessboard </h1>
+
+    {% if error %}
+        {{error}}
+    {% endif %}
+
+    <main>
+            {% for i in range_N %}
+                {% for j in range_N %}
+                    {% if j|add:i|divisibleby:2 %}
+                            <div class="square">i = {{i}} j={{j}}</div>
+                    {% else %}
+                            <div class="square black">i = {{i}} j={{j}}</div>
+                    {% endif %}
+                   
+                {% endfor %}
+            {% endfor %}
+    </main>
+</body>
+</html>
