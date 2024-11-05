@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+
+    <main>
+        <section id="hometeam">
+            <div class="line">
+                <div class="player">
+                    <div class="playername">Prunea</div>
+                </div>
+            </div>
+            <div class="line">
+                <div class="player">
+                    <div class="playername">Prunea</div>
+                </div>
+                <div class="player">
+                    <div class="playername">Prunea</div>
+                </div>
+                <div class="player">
+                    <div class="playername">Prodan</div>
+                </div>
+            </div>
+            <div class="line">
+                <div class="player">
+                    <div class="playername">Prunea</div>
+                </div>
+                <div class="player">
+                    <div class="playername">Prunea</div>
+                </div>
+                <div class="player">
+                    <div class="playername">Prunea</div>
+                </div>
+                <div class="player">
+                    <div class="playername">Prunea</div>
+                </div>
+            </div>
+            <div class="line">
+                <div class="player">
+                    <div class="playername">Prunea</div>
+                </div>
+                <div class="player">
+                    <div class="playername">Prunea</div>
+                </div>
+            </div>
+            <div class="line">
+                <div class="player">
+                    <div class="playername">Prunea</div>
+                </div>
+            </div>
+        </section>
+        <section id="awayteam">
+
+        </section>
+   
+    </main>
+
+    <script>
+        var player_images = [
+            "https://static.flashscore.com/res/image/data/zH6PuD0r-rmkgmAdj.png",
+            "https://static.flashscore.com/res/image/data/hdRPnq2r-lbuTKe62.png",
+            "https://static.flashscore.com/res/image/data/M9MxDiTR-EuLETeEg.png",
+            "https://static.flashscore.com/res/image/data/QLuDyEMg-SlvXJFL8.png",
+            "https://static.flashscore.com/res/image/data/2eKfUSr5-bD0R8zeH.png",
+            "https://static.flashscore.com/res/image/data/tKfUkVoM-bD0R8zeH.png",
+            "https://static.flashscore.com/res/image/data/lvqJfJsl-GbxyyvMJ.png",
+            "https://static.flashscore.com/res/image/data/vD7pMJ4G-lbuTKe62.png",
+            "https://static.flashscore.com/res/image/data/2sePK40r-4S8nh0Lr.png",
+            "https://static.flashscore.com/res/image/data/tbBqA5tl-bZa0VSHL.png",
+            "https://static.flashscore.com/res/image/data/Ukb9IY2a-2DZEhJSj.png"
+
+        ]
+        var players = [ "1.Prunea", "3.Prodan", "4.Belodedici", "14.Mihali", "2.Petrescu", "6.Popescu", "5.Lupescu", "13.Selymes", "7.Munteanu", "10.Hagi",  "11.Dumitrescu"]
+        var playernames = document.getElementsByClassName("playername")
+        for (let i = 0; i < playernames.length; i++) {
+            const player_element = playernames[i];
+            player_element.innerHTML = players[i];
+        }  
+
+        
+       
+        var player_divs = document.getElementsByClassName("player")
+
+        for (let i = 0; i < player_divs.length; i++) {
+            const player_div = player_divs[i];
+            player_div.style.backgroundImage = 'url("https://static.flashscore.com/res/image/data/Ukb9IY2a-2DZEhJSj.png")';
+            player_div.style.backgroundImage = 'url("' +  player_images[i] +'")';
+        }
+        
+
+    </script>
+
+</body>
+</html>

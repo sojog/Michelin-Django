@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    h1{
+        color:blue;
+    }
+    </style>
+</head>
+<body>
+    <h1>This is my title</h1>
+    <p>This is my paragraph</p>
+
+    <script>
+        var x = 333333331231
+        console.log(x);
+        console.error("WE HAVE AN ERROR!! PLEASE HELP")
+        console.warn("WE HAVE AN WARNING!! PLEASE DO SOMETHING");
+        var h1_elements = document.getElementsByTagName("h1");
+        var h1 = h1_elements[0];
+        h1.style.backgroundColor = "red";
+
+        var new_h1 = document.createElement("h1")
+        new_h1.innerText = "JavasScript Dynamic Element";
+        var body = document.getElementsByTagName("body")[0];
+        body.appendChild(new_h1);
+
+
+    </script>
+
+</body>
+</html>
