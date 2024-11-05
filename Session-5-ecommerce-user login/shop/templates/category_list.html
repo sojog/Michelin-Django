@@ -1,0 +1,17 @@
+{% extends "shop/base.html" %}
+
+{% block main %}
+
+<h1>Categories</h1>
+
+<ol>
+    {% for cat in categories  %}
+    
+    <a href="{% url 'category_details_url' cat.slug %}">
+        <li>{{cat}}</li>
+    </a>
+        
+    {% endfor %}
+</ol>
+
+{% endblock main %}

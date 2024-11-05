@@ -1,0 +1,21 @@
+{% extends "shop/base.html" %}
+
+{% block main %}
+<h1> Your cart is empty </h1>
+
+    <ol>
+
+    {% for prod, qty in products_quantities %}
+       <li> {{prod}}  - {{qty}} items </li>
+    {% endfor %}
+    
+    </ol>
+
+
+<form action="{% url 'empty_cart_url' %}" method="post">
+   {% csrf_token %}
+    <input type="submit" value="Empty cart">
+</form>
+
+
+{% endblock main %}

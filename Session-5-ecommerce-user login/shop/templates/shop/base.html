@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        header{
+            background-color:black;
+            height: 50px;
+        }
+        header a {
+            color:white;
+        }
+        .count{
+            color:white;
+            background-color:red;
+            border-radius:50%;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="{% url 'cart_url'  %}">Cart
+                {% if total_items %}
+                    <span class="count">{{total_items}}</span>
+                {% endif %}
+                
+            </a>
+        </nav>
+    </header>
+    <h1>This is my base - changed</h1>
+
+    {% block main %}
+    
+    {% endblock main %}
+
+
+</body>
+</html>
