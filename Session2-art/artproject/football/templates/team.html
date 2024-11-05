@@ -1,0 +1,48 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <style>
+        main{
+            background-image:url("{% static 'field.png' %}");
+            background-position:center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .player{
+            background-image: url("{% static 'IT.png' %}");
+
+        }
+    </style>
+   
+</head>
+<body>
+
+    <main >
+        <section id="hometeam">
+            {% for line in team_lines  %}
+                <div class="line">
+                    {% for player, country in line  %}
+                        <div class="player" style="background-image: url('/static/{{country}}.png');">
+                            <div class="playername">{{player}}</div>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endfor %}
+        </section>
+
+
+       
+   
+    </main>
+
+   
+
+</body>
+</html>
