@@ -1,0 +1,547 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2024-10-31T07:47:21.059Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Product object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2024-10-31T07:50:24.622Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Second Product - The default interactive shell is now zsh.\r\nTo update your account to use zsh, please run `chsh -s /bin/zsh`.\r\nFor more details, please visit https://support.apple.com/kb/HT208050.\r\nMa",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2024-10-31T08:17:23.819Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Second Product - The defaul",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2024-10-31T08:21:30.423Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "First product - Was made u",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2024-10-31T08:21:44.691Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Second Product - The defaul",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2024-10-31T08:26:40.361Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Third Product - ",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2024-10-31T08:27:00.944Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Third Product - ",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2024-10-31T08:27:36.413Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Third Product - This is my",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2024-10-31T09:45:44.960Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Fourth Product - ",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2024-10-31T09:47:25.125Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Fourth Product - ",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2024-10-31T09:54:28.866Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Fourth Product - ",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add product",
+        "content_type": 7,
+        "codename": "add_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change product",
+        "content_type": 7,
+        "codename": "change_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete product",
+        "content_type": 7,
+        "codename": "delete_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view product",
+        "content_type": 7,
+        "codename": "view_product"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$HnPDEEM1lzRhLf1jcb2A8q$8h7/2v5RcCj8FgNQmP8wQk2q9dxaPSsNofmfIk3GEOc=",
+        "last_login": "2024-10-31T07:40:45.741Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@admin.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-10-31T07:39:45.555Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "shop",
+        "model": "product"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "2qvs00hewzvar5gpky6k0cnpn8fllxix",
+    "fields": {
+        "session_data": "eyJjYXJ0Ijp7IjEiOjEwfX0:1t6WdA:PTEqpDD-HwbASuTtaKHJI4vqYEiDx2UrZueSj4zuRn0",
+        "expire_date": "2024-11-14T14:58:36.766Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "e8twjkioiki92u0mwe2i9s9rad9omu5w",
+    "fields": {
+        "session_data": "eyJjYXJ0Ijp7IjEiOjF9fQ:1t6VHf:Ptz4lEyc-UiAikThtng3xOEdndSTvh1hHfGZGruN-kc",
+        "expire_date": "2024-11-14T13:32:19.354Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "f0dx5vta8n0tlp19zsojmdetnc2oues8",
+    "fields": {
+        "session_data": ".eJyrVkpOLCpRsopWMlbSQcOxtQBz7Abc:1t6VC3:ocEe36meaxxpv-MPK5pGFwexsIM8WmyFWwRY8JqR2Ug",
+        "expire_date": "2024-11-14T13:26:31.610Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "vb2h1efcg4ahc24mgnxepy337ek71t3g",
+    "fields": {
+        "session_data": ".eJxVjk0KwyAQhe_iukicMVaz7L4nKCWMUWvaEEGTVendq5BFu3gwvJ-PebOR9i2Oe_F5nB0bmGCnX8_S9PJrC9yT1kfiU1q3PFveKvxIC78m55fL0f0DRCqxroMJlkiDE1IiCggKPYIMvketUAvj0XRagNKd6kBqFBY9nHsTlHIafIVOaUm5ofYplpmaQ3ljw41hvdvfUCXZ_fMF7-lBuw:1t6Uec:Rjlpz_I5ZsyL1QBN7komBaUtmt_L0zwNZ-mvRtQ5oj0",
+        "expire_date": "2024-11-14T12:51:58.362Z"
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 1,
+    "fields": {
+        "title": "First product",
+        "description": "Was made using Django admin",
+        "price": "10.00",
+        "slug": "first-product",
+        "image": ""
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 2,
+    "fields": {
+        "title": "Second Product",
+        "description": "The default interactive shell is now zsh.\r\nTo update your account to use zsh, please run `chsh -s /bin/zsh`.\r\nFor more details, please visit https://support.apple.com/kb/HT208050.\r\nMacBook-Pro-2:Session-4-ecommerce silviu$ python manage.py migrate\r\nOperations to perform:\r\n  Apply all migrations: admin, auth, contenttypes, sessions, shop\r\nRunning migrations:\r\n  Applying shop.0002_product_description... OK\r\nMacBook-Pro-2:Session-4-ecommerce silviu$ \r\n\r\n\r\n\r\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/utils/decorators.py\", line 186, in _view_wrapper\r\n    response = view_func(request, *args, **kwargs)\r\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/views/decorators/cache.py\", line 80, in _view_wrapper\r\n    response = view_func(request, *args, **kwargs)\r\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/contrib/admin/sites.py\", line 241, in inner\r\n    return view(request, *args, **kwargs)\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/utils/decorators.py\", line 48, in _wrapper\r\n    return bound_method(*args, **kwargs)\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/utils/decorators.py\", line 188, in _view_wrapper\r\n    result = _process_exception(request, e)\r\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/utils/decorators.py\", line 186, in _view_wrapper\r\n    response = view_func(request, *args, **kwargs)\r\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/contrib/admin/options.py\", line 2140, in changelist_view\r\n    \"selection_note\": _(\"0 of %(cnt)s selected\") % {\"cnt\": len(cl.result_list)},\r\n                                                           ^^^^^^^^^^^^^^^^^^^\r\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/db/models/query.py\", line 382, in __len__\r\n    self._fetch_all()\r\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/db/models/query.py\", line 1928, in _fetch_all\r\n    self._result_cache = list(self._iterable_class(self))\r\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/db/models/query.py\", line 91, in __iter__\r\n    results = compiler.execute_sql(\r\n              ^^^^^^^^^^^^^^^^^^^^^\r\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/db/models/sql/compiler.py\", line 1574, in execute_sql\r\n    cursor.execute(sql, params)\r\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/db/backends/utils.py\", line 122, in execute\r\n    return super().execute(sql, params)\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/db/backends/utils.py\", line 79, in execute\r\n    return self._execute_with_wrappers(\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/db/backends/utils.py\", line 92, in _execute_with_wrappers\r\n    return executor(sql, params, many, context)\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/db/backends/utils.py\", line 100, in _execute\r\n    with self.db.wrap_database_errors:\r\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/db/utils.py\", line 91, in __exit__\r\n    raise dj_exc_value.with_traceback(traceback) from exc_value\r\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/db/backends/utils.py\", line 105, in _execute\r\n    return self.cursor.execute(sql, params)\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/django/db/backends/sqlite3/base.py\", line 354, in execute\r\n    return super().execute(query, params)\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\ndjango.db.utils.OperationalError: no such column: shop_product.description\r\n[31/Oct/2024 07:44:32] \"GET /admin/shop/product/ HTTP/1.1\" 500 164636\r\n/Users/silviu/Desktop/DjangoMichelin/Code/Session-4-ecommerce/shop/models.py changed, reloading.\r\nWatching for file changes with StatReloader\r\nPerforming system checks...\r\n\r\nSystem check identified no issues (0 silenced).\r\nOctober 31, 2024 - 07:45:21\r\nDjango version 5.1.1, using settings 'ecommerce.settings'\r\nStarting development server at http://127.0.0.1:8000/\r\nQuit the server with CONTROL-C.\r\n\r\n[31/Oct/2024 07:46:48] \"GET /admin/shop/product/ HTTP/1.1\" 200 7783\r\n[31/Oct/2024 07:46:48] \"GET /static/admin/js/core.js HTTP/1.1\" 304 0\r\n[31/Oct/2024 07:46:48] \"GET /static/admin/css/changelists.css HTTP/1.1\" 304 0\r\n[31/Oct/2024 07:46:48] \"GET /static/admin/js/actions.js HTTP/1.1\" 304 0\r\n[31/Oct/2024 07:46:48] \"GET /static/admin/js/urlify.js HTTP/1.1\" 304 0\r\n[31/Oct/2024 07:46:48] \"GET /static/admin/js/prepopulate.js HTTP/1.1\" 304 0\r\n[31/Oct/2024 07:46:48] \"GET /static/admin/js/jquery.init.js HTTP/1.1\" 304 0\r\n[31/Oct/2024 07:46:48] \"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1\" 304 0\r\n[31/Oct/2024 07:46:48] \"GET /admin/jsi18n/ HTTP/1.1\" 200 3342\r\n[31/Oct/2024 07:46:48] \"GET /static/admin/js/filters.js HTTP/1.1\" 304 0\r\n[31/Oct/2024 07:46:48] \"GET /static/admin/img/tooltag-add.svg HTTP/1.1\" 304 0\r\n[31/Oct/2024 07:46:50] \"GET /admin/shop/product/ HTTP/1.1\" 200 7783\r\n[31/Oct/2024 07:46:50] \"GET /admin/jsi18n/ HTTP/1.1\" 200 3342\r\n[31/Oct/2024 07:46:56] \"GET /admin/shop/product/add/ HTTP/1.1\" 200 9223\r\n[31/Oct/2024 07:46:56] \"GET /static/admin/js/prepopulate_init.js HTTP/1.1\" 304 0\r\n[31/Oct/2024 07:46:56] \"GET /static/admin/css/forms.css HTTP/1.1\" 304 0\r\n[31/Oct/2024 07:46:56] \"GET /admin/jsi18n/ HTTP/1.1\" 200 3342\r\n[31/Oct/2024 07:46:56] \"GET /static/admin/js/change_form.js HTTP/1.1\" 304 0\r\n[31/Oct/2024 07:46:56] \"GET /static/admin/css/widgets.css HTTP/1.1\" 304 0\r\n[31/Oct/2024 07:47:21] \"POST /admin/shop/product/add/ HTTP/1.1\" 302 0\r\n[31/Oct/2024 07:47:21] \"GET /admin/shop/product/ HTTP/1.1\" 200 9293\r\n[31/Oct/2024 07:47:21] \"GET /admin/jsi18n/ HTTP/1.1\" 200 3342\r\n[31/Oct/2024 07:47:21] \"GET /static/admin/img/icon-yes.svg HTTP/1.1\" 304 0\r\n/Users/silviu/Desktop/DjangoMichelin/Code/Session-4-ecommerce/shop/models.py changed, reloading.\r\nWatching for file changes with StatReloader\r\nException in thread django-main-thread:",
+        "price": "10.00",
+        "slug": "second-product",
+        "image": ""
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 3,
+    "fields": {
+        "title": "Third Product",
+        "description": "This is my description",
+        "price": "300.00",
+        "slug": "third-product-changed",
+        "image": ""
+    }
+},
+{
+    "model": "shop.product",
+    "pk": 4,
+    "fields": {
+        "title": "Fourth Product",
+        "description": "",
+        "price": "20.00",
+        "slug": "fourth-product-changed",
+        "image": "uploadedimages/cat.jpeg"
+    }
+}
+]
