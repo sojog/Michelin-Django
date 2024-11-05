@@ -1,0 +1,23 @@
+{% extends "shop/base.html" %}
+
+{% block main %}
+    <h2> This is in my list </h2>
+
+    <ol>
+        {% for prod in products  %}
+
+            <a href="{% url 'details_url' prod.slug %}">
+                <li> 
+                    {{prod.title}} 
+                
+                
+                </li>
+
+            </a>
+            
+        {% endfor %}    
+
+    </ol>
+{% endblock main %}
+
+
